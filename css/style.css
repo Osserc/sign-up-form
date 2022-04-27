@@ -1,0 +1,8 @@
+.image {
+    background-image: url(../images/bg-image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 720px;
+}
+
