@@ -97,6 +97,18 @@ input {
     height: 25px;
     border-radius: 5px;
     border-width: 1px;
+    border-color: #E5E7EB;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 3px 3px rgb(235, 235, 235);
+}
+
+input:invalid {
+    outline: none;
+    border-color: red;
 }
 
 .bottom {
@@ -116,6 +128,7 @@ input {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    box-shadow: 3px 3px rgb(235, 235, 235);
 }
 
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
